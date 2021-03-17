@@ -349,6 +349,7 @@ Resources:
     Properties:
       EIP: !ImportValue OutputEIP
       InstanceId: !Ref MyInstance1
+      
   #EC2 Section
   MyInstance1:
     Type: AWS::EC2::Instance
